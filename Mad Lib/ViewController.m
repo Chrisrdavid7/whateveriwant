@@ -22,12 +22,12 @@
 - (IBAction)buttonpress:(id)sender {
     
     NSString *name = self.name.text;
-    NSString *noun = self.name.text;
-    NSString *food = self.name.text;
-    NSString *place = self.name.text;
-    NSString *body = self.name.text;
-    NSString *song = self.name.text;
-    NSString *color = self.name.text;
+    NSString *noun = self.noun.text;
+    NSString *food = self.food.text;
+    NSString *place = self.place.text;
+    NSString *body = self.body.text;
+    NSString *song = self.song.text;
+    NSString *color = self.color.text;
     
     
     NSLog(@"%@ is at %@, eating %@. %@ has been %@'s favorite place to visit, full of broken %@'s. %@ listens to %@ while swimming in the %@ lake.", name, noun, food, place, name, body, name, song, color);
