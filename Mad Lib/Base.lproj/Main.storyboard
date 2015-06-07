@@ -25,7 +25,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Broken Lids" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9QI-w0-DoY">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="41"/>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="41"/>
                                 <color key="textColor" red="1" green="0.9798483594198909" blue="0.55098413323325623" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.46945168777903945" green="0.50296876892262665" blue="0.54588764483065955" alpha="1" colorSpace="calibratedRGB"/>
@@ -109,6 +109,15 @@
                                     <rect key="frame" x="0.0" y="86" width="400" height="30"/>
                                 </variation>
                             </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9Ud-q6-d98">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="textColor" red="1" green="0.97984835940000004" blue="0.55098413319999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="159" width="368" height="303"/>
+                                </variation>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -123,6 +132,7 @@
                                 <exclude reference="7i9-aH-8Ol"/>
                                 <exclude reference="xeA-Eu-TwT"/>
                                 <exclude reference="NN8-kj-2fY"/>
+                                <exclude reference="9Ud-q6-d98"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -137,10 +147,12 @@
                                 <include reference="7i9-aH-8Ol"/>
                                 <include reference="xeA-Eu-TwT"/>
                                 <include reference="NN8-kj-2fY"/>
+                                <include reference="9Ud-q6-d98"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="Hit" destination="xeA-Eu-TwT" id="d8H-Ij-oSG"/>
                         <outlet property="body" destination="FgP-OC-Qr7" id="a3Z-lg-bN3"/>
                         <outlet property="color" destination="7i9-aH-8Ol" id="pC3-Sy-uca"/>
                         <outlet property="food" destination="nPM-qe-vuX" id="uad-0e-k9R"/>
@@ -148,6 +160,7 @@
                         <outlet property="noun" destination="NYl-cj-iAq" id="yTP-qy-ejP"/>
                         <outlet property="place" destination="vjE-Rz-YTO" id="rBh-0R-Mjk"/>
                         <outlet property="song" destination="1GE-ck-5hl" id="OYK-Ly-Qp4"/>
+                        <outlet property="story" destination="9Ud-q6-d98" id="dQk-Sd-JDm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
