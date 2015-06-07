@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="41"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="0.9798483594198909" blue="0.55098413323325623" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.46945168777903945" green="0.50296876892262665" blue="0.54588764483065955" alpha="1" colorSpace="calibratedRGB"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
@@ -84,7 +84,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xeA-Eu-TwT">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Hit Me!!!">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.51713810273992322" green="0.52301927889236288" blue="0.51707759775583662" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="widthClass=compact" fixedFrame="YES">
@@ -103,6 +103,12 @@
                                     <rect key="frame" x="0.0" y="86" width="400" height="30"/>
                                 </variation>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="463x486_q75" translatesAutoresizingMaskIntoConstraints="NO" id="djb-j1-fgu">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="606"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -116,6 +122,7 @@
                                 <exclude reference="7i9-aH-8Ol"/>
                                 <exclude reference="xeA-Eu-TwT"/>
                                 <exclude reference="NN8-kj-2fY"/>
+                                <exclude reference="djb-j1-fgu"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -129,6 +136,7 @@
                                 <include reference="7i9-aH-8Ol"/>
                                 <include reference="xeA-Eu-TwT"/>
                                 <include reference="NN8-kj-2fY"/>
+                                <include reference="djb-j1-fgu"/>
                             </mask>
                         </variation>
                     </view>
@@ -147,4 +155,7 @@
             <point key="canvasLocation" x="379.5" y="305"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="463x486_q75" width="463" height="486"/>
+    </resources>
 </document>
