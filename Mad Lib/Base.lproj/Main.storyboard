@@ -16,6 +16,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="463x486_q75" translatesAutoresizingMaskIntoConstraints="NO" id="djb-j1-fgu">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="606"/>
+                                </variation>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Broken Lids" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9QI-w0-DoY">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -103,16 +109,11 @@
                                     <rect key="frame" x="0.0" y="86" width="400" height="30"/>
                                 </variation>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="463x486_q75" translatesAutoresizingMaskIntoConstraints="NO" id="djb-j1-fgu">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="400" height="606"/>
-                                </variation>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
+                                <exclude reference="djb-j1-fgu"/>
                                 <exclude reference="9QI-w0-DoY"/>
                                 <exclude reference="NYl-cj-iAq"/>
                                 <exclude reference="nPM-qe-vuX"/>
@@ -122,11 +123,11 @@
                                 <exclude reference="7i9-aH-8Ol"/>
                                 <exclude reference="xeA-Eu-TwT"/>
                                 <exclude reference="NN8-kj-2fY"/>
-                                <exclude reference="djb-j1-fgu"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
+                                <include reference="djb-j1-fgu"/>
                                 <include reference="9QI-w0-DoY"/>
                                 <include reference="NYl-cj-iAq"/>
                                 <include reference="nPM-qe-vuX"/>
@@ -136,7 +137,6 @@
                                 <include reference="7i9-aH-8Ol"/>
                                 <include reference="xeA-Eu-TwT"/>
                                 <include reference="NN8-kj-2fY"/>
-                                <include reference="djb-j1-fgu"/>
                             </mask>
                         </variation>
                     </view>
