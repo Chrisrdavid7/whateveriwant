@@ -17,7 +17,14 @@
 @property (weak, nonatomic) IBOutlet UITextField *song;
 @property (weak, nonatomic) IBOutlet UITextView *story;
 @property (weak, nonatomic) IBOutlet UITextField *color;
+@property (weak, nonatomic) IBOutlet UILabel *nounLabel;
+@property (weak, nonatomic) IBOutlet UILabel *foodLabel;
+@property (weak, nonatomic) IBOutlet UILabel *placeLabel;
 @property (weak, nonatomic) IBOutlet UIButton *Hit;
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *bodyLabel;
+@property (weak, nonatomic) IBOutlet UILabel *songLabel;
+@property (weak, nonatomic) IBOutlet UILabel *colorLabel;
 @end
 
 
@@ -45,6 +52,15 @@
     self.song.hidden = YES;
     self.color.hidden = YES;
     self.story.hidden = YES;
+    
+    self.nameLabel.hidden = YES;
+    self.nounLabel.hidden = YES;
+    self.foodLabel.hidden = YES;
+    self.placeLabel.hidden = YES;
+    self.bodyLabel.hidden = YES;
+    self.songLabel.hidden = YES;
+    self.colorLabel.hidden =YES;
+    
     
     self.story.text = [NSString stringWithFormat:@"%@ is at %@, eating %@. %@ has been %@'s favorite place to visit, full of broken %@'s. %@ listens to %@ while swimming in the %@ lake.", name, noun, food, place, name, body, name, song, color];
 

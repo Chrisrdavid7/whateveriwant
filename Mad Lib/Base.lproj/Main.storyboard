@@ -33,25 +33,25 @@
                                     <rect key="frame" x="70" y="20" width="273" height="58"/>
                                 </variation>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Noun:" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NYl-cj-iAq">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NYl-cj-iAq">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <color key="textColor" red="0.61521464650000002" green="0.61521464650000002" blue="0.61521464650000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="146" width="400" height="30"/>
+                                    <rect key="frame" x="0.0" y="154" width="400" height="30"/>
                                 </variation>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Food:" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nPM-qe-vuX">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nPM-qe-vuX">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <color key="textColor" red="0.61521464650000002" green="0.61521464650000002" blue="0.61521464650000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="208" width="400" height="30"/>
+                                    <rect key="frame" x="0.0" y="210" width="400" height="30"/>
                                 </variation>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Place:" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vjE-Rz-YTO">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vjE-Rz-YTO">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <color key="textColor" red="0.61521464650000002" green="0.61521464650000002" blue="0.61521464650000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -60,7 +60,7 @@
                                     <rect key="frame" x="0.0" y="268" width="400" height="30"/>
                                 </variation>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Body Part:" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FgP-OC-Qr7">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FgP-OC-Qr7">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <color key="textColor" red="0.61521464650000002" green="0.61521464650000002" blue="0.61521464650000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -69,7 +69,7 @@
                                     <rect key="frame" x="0.0" y="326" width="400" height="30"/>
                                 </variation>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Song:" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1GE-ck-5hl">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1GE-ck-5hl">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <color key="textColor" red="0.61521464650000002" green="0.61521464650000002" blue="0.61521464650000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -78,7 +78,7 @@
                                     <rect key="frame" x="0.0" y="386" width="400" height="30"/>
                                 </variation>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Color:" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7i9-aH-8Ol">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7i9-aH-8Ol">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <color key="textColor" red="0.61521464650000002" green="0.61521464650000002" blue="0.61521464650000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -100,22 +100,86 @@
                                     <action selector="buttonpress:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6fx-vV-grs"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Name:" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NN8-kj-2fY">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NN8-kj-2fY">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <color key="textColor" red="0.61521464646464641" green="0.61521464646464641" blue="0.61521464646464641" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="86" width="400" height="30"/>
+                                    <rect key="frame" x="0.0" y="96" width="400" height="30"/>
                                 </variation>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AwX-Er-sGx">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.74923058712121215" green="0.74923058712121215" blue="0.74923058712121215" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="5" y="75" width="51" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Noun:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sbn-ZR-TqF">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.72958096589999999" green="0.72958096589999999" blue="0.72958096589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="5" y="131" width="47" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2k-KP-aFu">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.72958096590909083" green="0.72958096590909083" blue="0.72958096590909083" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="6" y="187" width="45" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Place:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2hn-SJ-dKZ">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.72958096589999999" green="0.72958096589999999" blue="0.72958096589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="6" y="248" width="48" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Body:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdb-jS-Kmq">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.72958096589999999" green="0.72958096589999999" blue="0.72958096589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="5" y="301" width="46" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Song:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A12-h6-krN">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.72958096589999999" green="0.72958096589999999" blue="0.72958096589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="5" y="364" width="46" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Color:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UHl-6y-QrT">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.72958096589999999" green="0.72958096589999999" blue="0.72958096589999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="5" y="424" width="47" height="21"/>
+                                </variation>
+                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9Ud-q6-d98">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <color key="textColor" red="1" green="0.97984835940000004" blue="0.55098413319999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.94730568212979716" green="1" blue="0.96324634246734109" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldItalicMT" family="Courier New" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="159" width="368" height="303"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                    <rect key="frame" x="16" y="268" width="368" height="303"/>
                                 </variation>
                             </textView>
                         </subviews>
@@ -132,6 +196,13 @@
                                 <exclude reference="7i9-aH-8Ol"/>
                                 <exclude reference="xeA-Eu-TwT"/>
                                 <exclude reference="NN8-kj-2fY"/>
+                                <exclude reference="AwX-Er-sGx"/>
+                                <exclude reference="sbn-ZR-TqF"/>
+                                <exclude reference="h2k-KP-aFu"/>
+                                <exclude reference="2hn-SJ-dKZ"/>
+                                <exclude reference="fdb-jS-Kmq"/>
+                                <exclude reference="A12-h6-krN"/>
+                                <exclude reference="UHl-6y-QrT"/>
                                 <exclude reference="9Ud-q6-d98"/>
                             </mask>
                         </variation>
@@ -147,6 +218,13 @@
                                 <include reference="7i9-aH-8Ol"/>
                                 <include reference="xeA-Eu-TwT"/>
                                 <include reference="NN8-kj-2fY"/>
+                                <include reference="AwX-Er-sGx"/>
+                                <include reference="sbn-ZR-TqF"/>
+                                <include reference="h2k-KP-aFu"/>
+                                <include reference="2hn-SJ-dKZ"/>
+                                <include reference="fdb-jS-Kmq"/>
+                                <include reference="A12-h6-krN"/>
+                                <include reference="UHl-6y-QrT"/>
                                 <include reference="9Ud-q6-d98"/>
                             </mask>
                         </variation>
@@ -154,12 +232,19 @@
                     <connections>
                         <outlet property="Hit" destination="xeA-Eu-TwT" id="d8H-Ij-oSG"/>
                         <outlet property="body" destination="FgP-OC-Qr7" id="a3Z-lg-bN3"/>
+                        <outlet property="bodyLabel" destination="fdb-jS-Kmq" id="JlV-lq-2Vo"/>
                         <outlet property="color" destination="7i9-aH-8Ol" id="pC3-Sy-uca"/>
-                        <outlet property="food" destination="nPM-qe-vuX" id="uad-0e-k9R"/>
+                        <outlet property="colorLabel" destination="UHl-6y-QrT" id="Ew2-VV-rAY"/>
+                        <outlet property="food" destination="nPM-qe-vuX" id="3Ya-aI-fgh"/>
+                        <outlet property="foodLabel" destination="h2k-KP-aFu" id="E7m-q6-jvS"/>
                         <outlet property="name" destination="NN8-kj-2fY" id="hKf-R3-Svo"/>
+                        <outlet property="nameLabel" destination="AwX-Er-sGx" id="Ely-nJ-23Q"/>
                         <outlet property="noun" destination="NYl-cj-iAq" id="yTP-qy-ejP"/>
+                        <outlet property="nounLabel" destination="sbn-ZR-TqF" id="0h5-Th-zrA"/>
                         <outlet property="place" destination="vjE-Rz-YTO" id="rBh-0R-Mjk"/>
+                        <outlet property="placeLabel" destination="2hn-SJ-dKZ" id="kL4-Wm-gCf"/>
                         <outlet property="song" destination="1GE-ck-5hl" id="OYK-Ly-Qp4"/>
+                        <outlet property="songLabel" destination="A12-h6-krN" id="Knt-Lp-s4X"/>
                         <outlet property="story" destination="9Ud-q6-d98" id="dQk-Sd-JDm"/>
                     </connections>
                 </viewController>
